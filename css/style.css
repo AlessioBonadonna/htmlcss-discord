@@ -3,6 +3,7 @@ palette :
 blu : #3f61e0
 grigio: #f6f6f6
 nero#23272a
+indaco : #8fa1e1
 */
 * {
     margin: 0;
@@ -175,3 +176,30 @@ padding-right: 50px;
     margin-bottom: -5px;
     transform: rotate(180deg);
 }
+.container-big{
+    display: flex;
+    justify-items:center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.starbg{
+background-image: url(../img/stars.svg);
+background-repeat: no-repeat;
+background-size: 158%;
+text-align: center;
+}
+.container-big h2 {
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.btn-bigcont-blue {
+    background-color: #8fa1e1;
+    margin-bottom: 50px;
+    color:#ffff;
+    padding:10px;
+    border-radius: 15px;
+    
+}
+/****************** chiusura main **********/
