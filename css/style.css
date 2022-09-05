@@ -247,7 +247,7 @@ footer section{
     flex-direction: row;
     justify-items: center;
     padding-top:30px;
-    
+    margin-bottom: 25px;
 }
 .lista-footer li{
     list-style: none;
@@ -265,7 +265,7 @@ footer h3 {
 }
 .endfooter {
     display :flex;
-    height: auto;
+    height: 100px;
     justify-content: space-between ;
     align-items: baseline;
     align-items: center;
@@ -289,3 +289,33 @@ footer h3 {
 
 
 }
+
+/*********************** BONUS **********/
+nav a:hover {
+    text-decoration: underline;
+}
+.btn-hero-white:hover{
+    color:#3f61e0;
+  box-shadow: 5px 10px #3f62e07d;
+}
+.btn-hero-black:hover{
+    background-color: #2f3438;
+  box-shadow: 5px 10px #88888877;
+}
+.btn-bigcont-blue:hover{
+background-color:#8fa1e193;
+box-shadow: 5px 10px #88888877;
+}
+
+.btn-bigcont-blueF:hover{
+    background-color: #8fa1e193;
+    box-shadow: 5px 10px #88888877;
+}
+/******* 
+
+
+        Finito bonus
+        cliccare su Accedi in nav Bar per la seconda parte del esercizio Bonus 
+
+
+******/
