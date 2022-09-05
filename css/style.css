@@ -31,10 +31,11 @@ html {
 }
 
 /***************************************/
-/*prova*/
+
 .container {
     width: 80%;
     margin: auto;
+    display: flex;
 }
 
 header {
@@ -188,7 +189,7 @@ text-align: center;
 }
 .container-big h2 {
     margin: 50px 0;
-    font-size: 50px;
+    font: size 1.5em;
 }
 
 .btn-bigcont-blue {
@@ -203,4 +204,88 @@ text-align: center;
 /************* Footer ***************/
 footer{
     background-color: #23272a;
+    color:white;
+    height: auto;
+}
+
+aside{
+    
+    width: 30%;
+    padding-top: 20px;
+
+}
+footer aside img {
+    width: 25px;
+}
+.alingF{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo-social{
+    display: flex;
+
+    
+
+}
+.logo-social svg {
+    width: 20px;
+    margin-right: 10px;
+    fill:#f6f6f6;
+}
+footer section{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lista-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-items: center;
+    padding-top:30px;
+    
+}
+.lista-footer li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.lista-footer li:first-child{
+    color:#3f61e0;
+    
+}
+footer h3 {
+    color:#3f61e0;
+    font-size: xx-large;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.endfooter {
+    display :flex;
+    height: auto;
+    justify-content: space-between ;
+    align-items: baseline;
+    align-items: center;
+    border-top: 1px solid #3f61e0;
+    padding-top: 10px;
+
+}
+.endfooter img{
+    width:fit-content;
+}
+.endfooter span{
+    width: fit-content;
+
+}
+.btn-bigcont-blueF{
+    background-color: #8fa1e1;
+    margin-bottom: 0;
+    color:#ffff;
+    padding:5px;
+    border-radius: 15px;
+
+
 }
