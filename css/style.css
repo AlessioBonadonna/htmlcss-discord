@@ -4,8 +4,8 @@ blu : #3f61e0
 grigio: #f6f6f6
 nero#23272a
 */
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -14,63 +14,121 @@ nero#23272a
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  html{
+html {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  /***************************************/
-  /*prova*/
-  .container{
-    width: 80%;
-    margin:auto;
-  }
-  header{
-    background-color: #3f61e0;
-    height: auto;
-  }
-  main{
-    background-color:rgb(217, 30, 30);
-    height: 500px;
-  }
-  footer{
-    background-color: black;
-    height: 200px;
-  }
-  a{
-    color:white; /*da rivedere */
-  }
-  .btn {
+}
+
+.btn {
     background-color: white;
     border-radius: 15px;
-    padding: 5px  20px;
-    color:black;
+    padding: 5px 20px;
+    color: black;
     text-decoration: none;
-    
-  }
-  .contmenu{
+
+}
+
+/***************************************/
+/*prova*/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #3f61e0;
+    height: auto;
+}
+
+main {
+    background-color: rgb(217, 30, 30);
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+}
+
+a {
+    color: white;
+    /*da rivedere */
+}
+
+.contmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-  }
-  nav{
+
+}
+
+nav {
     padding-top: 20px;
     padding-bottom: 20px;
-    display : flex;
+    display: flex;
     align-content: space-between;
-  }
-  nav ul{
+}
+
+nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 80%;
-    
-  }
-  nav li{
+
+}
+
+nav li {
     list-style-type: none;
     margin: 0 20px;
 
-  }
-  nav li a {
+}
+
+nav li a {
     text-decoration: none;
-  }
+}
+
+/*Hero*/
+.hero {
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+}
+
+.conthero {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.conthero h1 {
+    color: white;
+    font-size: 55px;
+    margin:80px auto ;
+    
+}
+
+.conthero p {
+    text-align: center;
+    color:white;
+    line-height: 30px;
+    padding: 0px 240px ;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    
+}
+.aaling {
+    
+    flex-direction: row;
+}
+.aaling .btn{
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.btn-hero-black{
+    background-color: #23272a ;
+    color:white;
+}
