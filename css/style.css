@@ -44,10 +44,7 @@ header {
 
 
 
-footer {
-    background-color: black;
-    height: 200px;
-}
+
 
 a {
     color: white;
@@ -203,3 +200,7 @@ text-align: center;
     
 }
 /****************** chiusura main **********/
+/************* Footer ***************/
+footer{
+    background-color: #23272a;
+}
